@@ -33,8 +33,8 @@ lnt_risk = dose_values * 0.01
 app.layout = html.Div(
     style={'backgroundColor': 'white', 'padding': '20px'},
     children=[
-        html.H1("Understanding Radiation Exposure and Risk", style={'textAlign': 'center'}),
-        html.H5("Created by Low Dose Radiation Explanation Group 1 2025", style={'textAlign': 'center', 'marginBottom': 20, 'color': 'gray'}),
+        html.H1("Radiation Realities: Where does it come from and how does it affect me?", style={'textAlign': 'center'}),
+        html.H5("Mahde Abusaleh, David Capobianco, Kristin Cotton, Andrea Harper, Nickolas Schachtsick, Ryan Spartz", style={'textAlign': 'center', 'marginBottom': 20, 'color': 'gray'}),
 
         # Navigation Bar
         html.Div([
